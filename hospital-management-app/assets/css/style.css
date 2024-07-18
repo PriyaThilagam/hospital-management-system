@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-colour:#777;
+    --box-shadow: .4rem .4rem 0 rgba(22, 160, 133, 0.2);
+    --text-shadow: .3rem .3rem 0 rgba(0, 0, 0, 0.2);
+    --border: .2rem solid (var(--green));
+}
+
+*{
+    font-family: "Wittgenstein", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s ease-out;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding: 2rem 9%;
+    padding-right: 5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+.header .logo i{
+    color: var(--green);
+}
+.header .navbar a{
+    font-size: 1.7rem;
+    margin: 2rem;
+    color: var(--light-colour);
+}
+.header .navbar a:hover{
+    color: var(--green);
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border-color: 1rem solid var(--green);
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.btn span{
+    padding: .7rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color: #fff;
+    margin-left: .5rem;
+}
+.btn:hover{
+    background-color: var(--green);
+    color: #fff;
+}
+.btn:hover  span{
+    background-color: #fff;
+    color: var(--green);
+    margin-left: 1rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 3rem;
+}
+.home .logo{
+    flex: 1 1 45rem;
+}
+.home .logo img{
+    width: 100%;
+}
+.home .content{
+    flex: 1 1 45rem;
+}
+.home .content h2{
+    font-size: 4rem;
+    color: var(--green);
+    text-shadow: var(--text-shadow);
+    line-height: 1.5;
+}
+.home .content p{
+    font-size: 1.5rem;
+    color: var(--light-colour);
+    line-height: 1.5;
+    padding: 1rem ;
+}
+
