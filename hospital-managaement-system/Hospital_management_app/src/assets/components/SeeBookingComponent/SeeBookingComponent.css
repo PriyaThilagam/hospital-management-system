@@ -1,0 +1,89 @@
+.patients{
+    height: 100vh;
+}
+
+.patients .heading{
+    text-align: center;
+    
+}
+
+.patients .heading span{
+    color: var(--black);
+}
+
+.patients p{
+    font-size: medium;
+    color: var(--black);
+    text-align: center;
+}
+
+.patients .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border-color: 1rem solid var(--green);
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.patients .btn:hover{
+    background-color: var(--green);
+    color: #fff;
+}
+.patients .no-booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 3.5rem;
+    font-size: 1.5rem;
+    min-width: 80rem;
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+}
+
+.content-table thead tr{
+    background-color: var(--green);
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid var(--light-colour);
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid var(--green);
+}
+
+.content-table tbody tr td .bttn{
+    width: 5rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.content-table tbody tr td .bttn:hover{
+    background-color: var(--green);
+    color: #fff;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    
+}

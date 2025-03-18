@@ -1,0 +1,28 @@
+.services{
+    text-transform: capitalize;
+}
+.services .box-container{
+    display: grid;
+    gap: 10rem;
+    /* grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr)); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+
+}
+.services .box-container .box{
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 4.5rem;
+    font-size: 1.5rem;
+}
+.services .box-container .box i{
+    font-size: 2rem;
+    color: var(--green);
+}
+.services .box-container .box h3{
+    font-size: 2rem;
+    color: var(--green);
+}
