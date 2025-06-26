@@ -15,7 +15,7 @@ A full-stack Hospital Management System built with **React** and **Spring Boot**
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology                         |
+| Layer        | Technology                          |
 |--------------|-------------------------------------|
 | Frontend     | React.js, Axios, React Router       |
 | Backend      | Spring Boot (Java), Spring MVC      |
@@ -24,6 +24,4 @@ A full-stack Hospital Management System built with **React** and **Spring Boot**
 | Styling      | CSS                                 |
 | Build Tools  | Maven (backend), npm (frontend)     |
 
-
-```
 
